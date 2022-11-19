@@ -21,5 +21,4 @@ public class BonusSaverAccount extends SavingsAccount {
                 + accountId + "\nNew balance:\t" + balance + "\n");
 
     }
-
 }
