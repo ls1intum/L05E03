@@ -16,14 +16,11 @@ public class BankAccount {
     public boolean withdraw(double amount) {
         System.out.println("Withdrawal from account " + accountId + "\n" + "Amount:\t\t\t" + amount);
         if (amount > balance) {
-
             System.out.println("Sorry, insufficient funds...\n");
             return false;
         }
         balance = balance - amount;
         System.out.println("New balance:\t" + balance + "\n");
         return true;
-
     }
-
 }
